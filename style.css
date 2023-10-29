@@ -1,26 +1,26 @@
-body{
-    background-image:  url(https://us.123rf.com/450wm/loft39studio/loft39studio2306/loft39studio230694549/207191763-generative-ai-abstract-blur-and-defocused-night-bar-and-restaurant-for-background.jpg?ver=6);
-    background-color: rgba(0, 0, 0, 0.5);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-   text-transform: capitalize;
-   display:flex ;
-   justify-content: center;
-   align-items: center;
+body {
+  background-image: url(https://us.123rf.com/450wm/loft39studio/loft39studio2306/loft39studio230694549/207191763-generative-ai-abstract-blur-and-defocused-night-bar-and-restaurant-for-background.jpg?ver=6);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Use 100vh for full viewport height */
 }
 .main{
     display: flex;
 }
-.d1{
-    height: 570px;
+.d1 {
+    height: auto; /* Adjust the height as needed */
     text-align: center;
     margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 h1 {

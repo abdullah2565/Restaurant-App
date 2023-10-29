@@ -12,7 +12,7 @@ btnn.addEventListener('click' , function loader(){
   bodyy.style.backgroundColor = ' rgba(0, 0, 0, 0.9)';
 
   setTimeout(function(){
-    //  window.location.href = 'burger.html'
+     window.location.href = 'burger.html'
 
-  },2000)
+  },4000)
 })
