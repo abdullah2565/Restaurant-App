@@ -1,325 +1,345 @@
- *{
-    margin: 0;
-    padding: 0;
-    text-transform: capitalize;
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
 }
-.container{
-    margin: 0;
-    padding: 0;
-}
-.navbar{
-    width: 100%;
-    height: 60px;
-    background-color: #161414;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    display: flex;
-}
-.navbar > h1 {
-    padding-top: 10px;
-    padding-left: 10px;
-    text-transform: capitalize;
-    color: #ffc506;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.search {
-    position: relative;
-    left: 63%;
-    text-align: center;
-    margin-top: 1%;
-  }
-  
-  .search__input {
-    font-family: inherit;
-    font-size: inherit;
-    background-color: #f4f2f2;
-    border: none;
-    color: #646464;
-    padding: 0.7rem 1rem;
-    border-radius: 30px;
-    width: 12em;
-    transition: all ease-in-out .5s;
-    margin-right: -2rem;
-  
-    
-  }
-  
-  .search__input:hover, .search__input:focus {
-    box-shadow: 0 0 1em #00000013;
-  }
-  
-  .search__input:focus {
-    outline: none;
-    background-color: #f0eeee;
-  }
-  
-  .search__input::-webkit-input-placeholder {
-    font-weight: 100;
-    color: #ccc;
-  }
-  
-  .search__input:focus + .search__button {
-    background-color: #f0eeee;
-  }
-  
-  .search__button {
-    border: none;
-    background-color: #f4f2f2;
-    margin-top: .1em;
-  }
-  
-  .search__button:hover {
-    cursor: pointer;
-  }
-  
-  .search__icon {
-    height: 1.3em;
-    width: 1.3em;
-    fill: #b4b4b4;
-  }
-  .sidemenu{
-    width: 20%;
-    height: 800px;
-    background-color: #161414;
-    position: fixed;
-    box-shadow: #ffc506;
-    right: 0%;
-  }
 
- 
-#fooddiv {
-    width: 80%;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #161414;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+}
+
+.navbar > h1 {
+  padding-top: 10px;
+  padding-left: 10px;
+  text-transform: capitalize;
+  color: #ffc506;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search {
+  position: relative;
+  left: 63%;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.search__input {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #f4f2f2;
+  border: none;
+  color: #646464;
+  padding: 0.7rem 1rem;
+  border-radius: 30px;
+  width: 12em;
+  transition: all ease-in-out .5s;
+  margin-right: -2rem;
+}
+
+.search__input:hover, .search__input:focus {
+  box-shadow: 0 0 1em #00000013;
+}
+
+.search__input:focus {
+  outline: none;
+  background-color: #f0eeee;
+}
+
+.search__input::-webkit-input-placeholder {
+  font-weight: 100;
+  color: #ccc;
+}
+
+.search__input:focus + .search__button {
+  background-color: #f0eeee;
+}
+
+.search__button {
+  border: none;
+  background-color: #f4f2f2;
+  margin-top: .1em;
+}
+
+.search__button:hover {
+  cursor: pointer;
+}
+
+.search__icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: #b4b4b4;
+}
+
+.sidemenu {
+  width: 20%;
+  height: 800px;
+  background-color: #161414;
+  position: fixed;
+  box-shadow: #ffc506;
+  right: 0%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .card {
-    height: 480px;
-    width: 300px;
-    margin: 10px 0px;
-    padding: 10px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  height: 480px;
+  width: 300px;
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .card img {
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.card-content {
-    padding: 10px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .card h2 {
-    margin-top: 10px;
-    font-size: 25px;
-    color: #333333;
+  font-size: 25px;
+  color: #333333;
+  margin-bottom: 10px;
 }
 
 .card p {
-    color: #666666;
-    font-size: 20px;
+  color: #666666;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
+
 .card h6 {
-    color: #666666;
-    font-size: 26px;
+  color: #666666;
+  font-size: 26px;
 }
+
+#fooddiv {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .container form {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  
-  .container label {
-    display: flex;
-    cursor: pointer;
-    font-weight: 500;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 0.375em;
-  }
-  
-  .container  label input {
-    position: absolute;
-    left: -9999px;
-  }
-  
-  .container label input:checked + span {
-    background-color: rgb(148, 126, 0);
-    color: white;
-  }
-  
-  .container label input:checked + span:before {
-    box-shadow: inset 0 0 0 0.4375em #ffc506;
-  }
-  
-  .container label span {
-    display: flex;
-    align-items: center;
-    padding: 0.375em 0.75em 0.375em 0.375em;
-    border-radius: 99em;
-    transition: 0.25s ease;
-    color: rgb(236, 210, 65);
-  }
-  
-  .container label span:hover {
-    background-color: #d6d6e5;
-  }
-  
-  .container label span:before {
-    display: flex;
-    flex-shrink: 0;
-    content: "";
-    background-color: #fff;
-    width: 1.5em;
-    height: 1.5em;
-    border-radius: 50%;
-    margin-right: 0.375em;
-    transition: 0.25s ease;
-    box-shadow: inset 0 0 0 0.125em #ffc506;
-  }
-  .sortH{
-    color: #ffc506;
-  }
-  hr {
-    
-    color: #ffc506 !important;
-  
-    border: 2px dotted #ffc506 !important;
-
-    margin: 20px 0;
-  
-  }
-  .sidemenu {
-    /* Sidemenu ki overall styling yahan kar sakte hain */
-    font-family: Arial, sans-serif; /* Font family set karna */
-    color: #333; /* Text color set karna */
-  }
-  
-  .sidemenu .container hr {
-    margin: 10px 0; /* HR element ke spacing set karna */
-    border: none; /* HR element ki border remove karna */
-    border-top: 1px solid #ccc; /* HR element ke top border ki styling */
-  }
-  
-  .sidemenu .container label {
-    display: block; /* Label elements ko block level element banane ke liye */
-    margin-bottom: 10px; /* Labels ke spacing set karna */
-    cursor: pointer; /* Pointer cursor set karna labels par */
-  }
-  
-.sortH{
-    font-size: large;
-    margin-left: 2%;
-}
-  
-  /* Jab input selected ho, toh uske adjacent span tag ke text color change karna */
-  .sidemenu .container input[type="radio"]:checked + span {
-    color: #ffffff; /* Text color change karna selected input ke baad */
-  }
-  .sidemenu .container input[type="radio"]:checked + label span {
-    color: #ff5733; /* Text color change karna selected input ke baad */
-  }
-
-#range-input{
-    width: 90%;
-    background-color: #ffc506;
-    margin: 2%;
-    margin-left: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
+.container label {
+  display: flex;
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0.375em;
+}
 
+.container  label input {
+  position: absolute;
+  left: -9999px;
+}
+
+.container label input:checked + span {
+  background-color: rgb(148, 126, 0);
+  color: white;
+}
+
+.container label input:checked + span:before {
+  box-shadow: inset 0 0 0 0.4375em #ffc506;
+}
+
+.container label span {
+  display: flex;
+  align-items: center;
+  padding: 0.375em 0.75em 0.375em 0.375em;
+  border-radius: 99em;
+  transition: 0.25s ease;
+  color: rgb(236, 210, 65);
+}
+
+.container label span:hover {
+  background-color: #d6d6e5;
+}
+
+.container label span:before {
+  display: flex;
+  flex-shrink: 0;
+  content: "";
+  background-color: #fff;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  margin-right: 0.375em;
+  transition: 0.25s ease;
+  box-shadow: inset 0 0 0 0.125em #ffc506;
+}
+
+.sortH {
+  color: #ffc506;
+  margin-top:27px ;
+  font-size: 20px;
+}
+
+.sortHh{
+  color: #ffc506;
+  font-size: 20px;
+}
+
+hr {
+  color: #ffc506 !important;
+  border: 2px dotted #ffc506 !important;
+  margin: 10px 0;
+}
+
+.sidemenu {
+  width: 20%;
+  height: 100vh;
+  background-color: #161414;
+  position: fixed;
+  right: 0;
+  top: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+.sidemenu .container hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.sidemenu .container label {
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.sortH {
+  font-size: large;
+  margin-left: 2%;
+}
+
+.sidemenu .container input[type="radio"]:checked + span {
+  color: #ffffff;
+}
+
+.sidemenu .container input[type="radio"]:checked + label span {
+  color: #ff5733;
+}
+
+#range-input {
+  width: 90%;
+  background-color: #ffc506;
+  margin: 2%;
+  margin-left: 4%;
+}
 
 .Btn {
-    width: 130px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(15, 15, 15);
-    border: none;
-    color: white;
-    font-weight: 600;
-    gap: 8px;
-    cursor: pointer;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
-    position: relative;
-    overflow: hidden;
-    transition-duration: .3s;
-    margin: 30px;
-    margin-left: 70px;
-  }
-  
-  .svgIcon {
-    width: 16px;
-  }
-  
-  .svgIcon path {
-    fill: #ffc506;
-  }
-  
-  .Btn::before {
-    width: calc(100% + 40px);
-    aspect-ratio: 1/1;
-    position: absolute;
-    content: "";
-    background-color: #ffc506;
-    border-radius: 50%;
-    left: -20px;
-    top: 50%;
-    transform: translate(-150%, -50%);
-    transition-duration: .5s;
-    mix-blend-mode: difference;
-  }
-  
-  .Btn:hover::before {
-    transform: translate(0, -50%);
-  }
-  
-  .Btn:active {
-    transform: translateY(4px);
-    transition-duration: .3s;
-  }
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 15, 15);
+  border: none;
+  color: white;
+  font-weight: 600;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+  margin: 30px;
+  margin-left: 70px;
+}
 
-  #range-input {
-    -webkit-appearance: none; /* Safari/Chrome/Webkit browsers ke default styles hide karne ke liye */
-    width: 90%; /* Range input ka width 100% rakhein */
-    height: 10px; /* Range input ka height set karein */
-    background: #ffc506; /* Range input ka background color change karein */
-    outline: none; /* Outline ko remove karein */
-    opacity: 0.7; /* Range input ki opacity set karein */
-    transition: opacity 0.2s; /* Smooth transition set karein */
-    border-radius: 5px; /* Border radius set karein */
-    margin-left: 14px;
-  }
-  
-  #range-input::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Safari/Chrome/Webkit browsers ke default thumb styles hide karne ke liye */
-    appearance: none; /* Firefox ke default thumb styles hide karne ke liye */
-    width: 20px; /* Thumb ka width set karein */
-    height: 20px; /* Thumb ka height set karein */
-    background: #ffffff; /* Thumb ka background color set karein */
-    border-radius: 50%; /* Thumb ka border radius set karein (circle banane ke liye) */
-    cursor: pointer; /* Cursor ko pointer mei set karein */
-  }
-  
-  #range-input::-moz-range-thumb {
-    width: 20px; /* Firefox ke liye thumb ka width set karein */
-    height: 20px; /* Firefox ke liye thumb ka height set karein */
-    background: #ffffff; /* Firefox ke liye thumb ka background color set karein */
-    border-radius: 50%; /* Firefox ke liye thumb ka border radius set karein (circle banane ke liye) */
-    cursor: pointer; /* Cursor ko pointer mei set karein */
-  }
-  
-  #range-input:focus {
-    opacity: 1; /* Focus par opacity ko wapas 1 set karein */
-  }
-  
-  
+.svgIcon {
+  width: 16px;
+}
+
+.svgIcon path {
+  fill: #ffc506;
+}
+
+.Btn::before {
+  width: calc(100% + 40px);
+  aspect-ratio: 1/1;
+  position: absolute;
+  content: "";
+  background-color: #ffc506;
+  border-radius: 50%;
+  left: -20px;
+  top: 50%;
+  transform: translate(-150%, -50%);
+  transition-duration: .5s;
+  mix-blend-mode: difference;
+}
+
+.Btn:hover::before {
+  transform: translate(0, -50%);
+}
+
+.Btn:active {
+  transform: translateY(4px);
+  transition-duration: .3s;
+}
+
+#range-input {
+  -webkit-appearance: none; 
+  width: 90%;
+  height: 10px;
+  background: #ffc506;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  border-radius: 5px;
+  margin-left: 14px;
+}
+
+#range-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#range-input::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#range-input:focus {
+  opacity: 1;
+}
+
+

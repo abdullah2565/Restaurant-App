@@ -14,5 +14,5 @@ btnn.addEventListener('click' , function loader(){
   setTimeout(function(){
      window.location.href = 'burger.html'
 
-  },4000)
+  },3500)
 })
